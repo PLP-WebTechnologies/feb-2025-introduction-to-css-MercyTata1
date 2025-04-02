@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- external styling/css-->
+     <link rel="stylesheet" href="style.css">
+    <!-- font link/css-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <img src="logo.png" class="logo" alt="Logo">
+        
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/MercyTata1" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/mercyline-tata-a665271ba/" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="Mercyline Tata CV.pdf" download> 
+                <i class="fa-solid fa-download"></i>
+                <span>CV</span>
+            </a>
+
+        </div>
+
+    </nav>
+    <main> 
+        <!--SECTION 1:Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Mercyline Tata </h2>
+                <p class="title">A digital storyteller turned <span>software engineer </span>from Busia Kenya. I love working on the front-end and making beautiful designs come to life. Currently, I work as a communication specialist in the agri-sector, amplifying farmers' voices and highlighting the challenges they face—climate change, pests, capital constraints, inaccessible markets, and limited knowledge. Seeing these struggles firsthand has fueled my passion for technology as a solution.
+                    <br><br>
+                    I'm learning software development and leadership to build a startup that empowers smallholder farmers with innovative, tech-driven solutions. Food security starts with them, and I believe African-led innovation is key to transforming agriculture.</p>
+                
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-users-gear"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="without background new.png" alt="Mercyline Tata headshot">
+            </div>
+
+        </section>
+
+         <!--SECTION 2:Skills-->
+         <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I love creating clean, responsive, and visually appealing web experiences. With a strong focus on design and user experience, I ensure every interface is intuitive, engaging, and functional.
+            </div>
+            <div class="cells">
+                <div class="cell">
+                <img src="html without.png" alt="html logo" width="50px"
+                <span>HTML</span>
+            </div>
+                <div class="cell">
+                <img src="css without.png" alt="css logo" width="50px"
+                <span>CSS</span>
+            </div>
+                <div class="cell">
+                <img src="python.png" alt="python logo" width="50px"
+                <span>PYTHON</span>
+            </div>
+            <div class="cell">
+                <img src="mysql.jpeg" alt="mysql logo" width="50px"
+                <span>MYSQL</span>
+            </div>
+         </div>
+         </section>
+
+         <!--SECTION 3:Projects-->
+         <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+
+            <div class="group"> 
+            <div class="text">
+                I have worked on a variety of projects that showcase my passion for design and functionality. From building a personal portfolio website that reflects my journey, to developing an interactive e-commerce UI, I love creating digital experiences that are both dynamic and efficient. I also designed a storytelling blog that merges my love for writing with intuitive navigation and a clean, modern aesthetic.
+            </div>
+    
+            <div class="video">
+                <video autoplay muted loop playsinline>
+                    <source src="AdobeStock_32892336_Video_HD_Preview.mov" type="video/mp4" alt="project video">
+                </video>
+            </div>
+        </div>  
+         </section>
+
+          <!--SECTION 4:Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <form>
+                <label for="name">Full Name</label>
+                <input type="name" id="name" required>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <br><br>
+                <label for="name">Name</label>
+                <textarea id="Message" cols="30" rows="10"></textarea>
+                <br><br>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </section>
+    </main>
+    <!--Footer-->
+    <div class="footer-section">
+        <footer>
+            <p>2025. Designed and Created by Tata. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
